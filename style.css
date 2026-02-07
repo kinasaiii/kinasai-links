@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'inter', sans-serif;
+}
+
+h2::selection, p::selection {
+    background-color: #e48fb1;
+    color: #2b2b2b;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #141414ff;
+    color: white;
+}
+
+#social-links {
+    height: auto;
+    width: 350px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #1f1f1fff;
+    box-shadow: 0 0 15px #0f0f0f;
+}
+
+#my-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 40px 0 15px 0;
+}
+
+#name {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+
+#cv-decoration {
+    text-decoration: none;
+}
+
+#cv {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: #e48fb1;
+    text-decoration: none;
+    transition: font-weight 0.2s ease-in-out;
+}
+
+#cv:hover {
+    font-weight: 800;
+}
+
+#bio {
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    color: #bebebe;
+}
+
+.link-container {
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    background-color: #2b2b2b;
+    width: 300px;
+    height: 40px;
+    padding: 5px 0;
+    margin: 15px auto;
+    border-radius: 7px;
+    text-decoration: none;
+    border: 1px solid #393939;
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.link:hover {
+    background-color: #e48fb1;
+    color: #2b2b2b;
+}
